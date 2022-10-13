@@ -18,18 +18,32 @@ header {
 .icon {
     width: 80px;
     height: 80px;
+    padding-top: 10px;
 }
 
 main section{
     text-align: center;
 }
 
+main section h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main section img{
+    border-color: blueviolet;
+    box-sizing: border-box
+}
+
 nav a:hover{
     text-align: center;
+    padding: 35px;
 }
 
 .home-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
     background-color: aliceblue;
+    margin-top: 10px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -40,9 +54,14 @@ h4{
     background-color: lightcyan;
 }
 
-.book, .join{
-    background-color: pink;
+.book, .join {
+    padding : 15px 30px;
+    margin-top: 50px;
     text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: pink;
+    color: blueviolet
 }
 
 .book:hover, .join:hover{
@@ -54,17 +73,21 @@ h4{
 }
 
 .msg p{
+    padding-bottom: 15px;
     color:rebeccapurple
 }
 
 footer{
+    padding: 25px 50px;
     background-color: plum;
     font-size: 1.2em;
+    margin-top: 200px;
 }
 
 footer a{
     background-color: violet;
     text-decoration: none;
+    margin-top: 200px;
 }
 
 footer p a:hover{
@@ -72,9 +95,31 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+
+}
+ 
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid darkorchid
+}
+
 nav a{
     background-color: whitesmoke;
-    text-decoration: none
+    text-align: center;
+    padding: 10px;
 }
 
 nav a:hover{
@@ -83,6 +128,8 @@ nav a:hover{
 
 .msg{
     background-color: lightskyblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .button-box{
