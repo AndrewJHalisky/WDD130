@@ -1,0 +1,103 @@
+content {
+    margin: 0 auto
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+header {
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1/10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover{
+    text-align: center;
+    padding: 35px;
+    background-color: whitesmoke;
+}
+
+nav a{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-grid {
+    margin-left: 720px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+#alt-grid-1 {
+    margin-top: -700px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+#alt-grid-2{
+    margin-bottom: 100px;
+    margin-top: 0px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.blog-title{
+    background-color: #20b9be;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #5f41cc;
+    width: 60%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #654872;
+}
+
+
+.blog-1{
+    background-color: #ee55ee;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #5f41cc;
+    width: 80%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #654872;
+}
+
+.blog-2{
+    background-color: #ee55ee;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #5f41cc;
+    width: 80%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #654872;
+}
+
+div section{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
