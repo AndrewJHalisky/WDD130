@@ -81,6 +81,10 @@ p {
   height: 3em;
 }
 
+hr img{
+  margin-top: -100px;
+}
+
 .primary {
   background-color: var(--primary-color);
 }
