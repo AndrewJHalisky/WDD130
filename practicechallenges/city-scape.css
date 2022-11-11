@@ -1,5 +1,9 @@
-content{
-    margin: 0 auto;
+content {
+    margin: 0 auto
+}
+
+body {
+    background-color: paleturquoise;
 }
 
 main h1{
