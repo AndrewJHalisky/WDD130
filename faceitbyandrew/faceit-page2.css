@@ -20,3 +20,11 @@
     --nav-hover-link-color: white;
     --nav-hover-background-color: #656F66;
   }
+
+.grid-1 {
+  display: grid;
+}
+
+.grid-2 {
+  display: grid;
+}
